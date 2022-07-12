@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,YAAY;EACnB,MAAM,EAAE,MAAM;EACd,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "techStack.scss"
+    ],
+    "names": [],
+    "file": "techStack.css"
+}

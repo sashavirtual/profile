@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,YAAY;EACnB,MAAM,EAAE,MAAM;EACd,gBAAgB,EAAE,OAAc;CACnC",
+    "sources": [
+        "workxp.scss"
+    ],
+    "names": [],
+    "file": "workxp.css"
+}
