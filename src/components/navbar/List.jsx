@@ -2,7 +2,7 @@ import React from 'react'
 
 const List = ({ toggleMenu, setToggleMenu }) => {
     return (
-        <div className={`navbar__buttons ${toggleMenu ? 'menu__closed' : 'menu__opened'}`}>
+        <div className={`navbar__buttons ${toggleMenu ? 'menu__opened' : 'menu__closed'}`}>
             <a href="#about-me" onClick={() => setToggleMenu(false)}>Обо мне</a>
             <a href="#tech-stack" onClick={() => setToggleMenu(false)}>Tech Stack</a>
             <a href="#work-experience" onClick={() => setToggleMenu(false)}>Опыт работы</a>

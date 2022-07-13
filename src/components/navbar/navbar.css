@@ -101,10 +101,11 @@
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   border: 0px;
-  aspect-ration: 1/1;
+  aspect-ratio: 1/1;
 }
 
 .navbar__menu .navbar__buttons {
+  overflow-x: hidden;
   -webkit-box-shadow: inset 0 0 10px 10px rgba(74, 74, 74, 0.416);
           box-shadow: inset 0 0 10px 10px rgba(74, 74, 74, 0.416);
   -webkit-box-pack: center;
@@ -136,10 +137,9 @@
 
 .navbar__menu .navbar__buttons a {
   display: block;
-  margin: 1.8vh 2vw;
-  text-align: right;
-  padding: 5px 0;
-  min-width: 0px;
+  margin: 1.8vh 0;
+  text-align: left;
+  padding: 5px;
   min-width: 210px;
   text-decoration: none;
 }
@@ -203,10 +203,8 @@
     display: block;
   }
   .navbar__menu .navbar__buttons {
-    right: -120px;
+    right: -130px;
     padding: 0 auto;
-    padding-right: 80px;
-    width: 200px;
   }
   .navbar__menu .navbar__buttons a {
     color: var(--white);

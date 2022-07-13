@@ -149,6 +149,7 @@
   }
   .header .header__quote p {
     font-size: 40px;
+    max-width: 350px;
   }
   .header .firstChildImg {
     display: none;
