@@ -28,6 +28,7 @@
         align-items: flex-end;
         justify-content: flex-end;
         flex: 3;
+        z-index: 150;
 
         >a {
             margin-left: 13px;
@@ -114,7 +115,7 @@
     background-color: #0000007e;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    box-shadow:0 0 100px 16vh #112b3cb6;
+    box-shadow:-100px 5vh 17vh 18vh #112b3cb6;
 }
 
 

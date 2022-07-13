@@ -51,6 +51,7 @@
   -webkit-box-flex: 3;
       -ms-flex: 3;
           flex: 3;
+  z-index: 150;
 }
 
 .navbar .navbar__buttons > a {
@@ -134,8 +135,8 @@
   background-color: #0000007e;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  -webkit-box-shadow: 0 0 100px 16vh #112b3cb6;
-          box-shadow: 0 0 100px 16vh #112b3cb6;
+  -webkit-box-shadow: -100px 5vh 17vh 18vh #112b3cb6;
+          box-shadow: -100px 5vh 17vh 18vh #112b3cb6;
 }
 
 .navbar__menu .navbar__buttons a {

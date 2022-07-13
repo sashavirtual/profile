@@ -113,7 +113,7 @@
 
     p {
         font-size: 4vmin;
-        width: 80%;
+        width: 100%;
         color: var(--orange);
         letter-spacing: 0.3vw;
         z-index: 2;
@@ -149,7 +149,6 @@
 
             p {
                 font-size: 40px;
-                max-width: 295px;
             }
         }
 
@@ -213,6 +212,10 @@
 
         .header__quote {
             max-width: 100%;
+
+            p {
+                max-width: 300px;
+            }
         }
     }
 }
