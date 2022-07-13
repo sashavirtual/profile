@@ -177,8 +177,10 @@
         display: block;
 
         .navbar__buttons {
-            right: -150px;
+            right: -120px;
             padding: 0 auto;
+            padding-right: 80px;
+            width: 200px;
 
             a {
                 color: var(--white);

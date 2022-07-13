@@ -203,8 +203,10 @@
     display: block;
   }
   .navbar__menu .navbar__buttons {
-    right: -150px;
+    right: -120px;
     padding: 0 auto;
+    padding-right: 80px;
+    width: 200px;
   }
   .navbar__menu .navbar__buttons a {
     color: var(--white);

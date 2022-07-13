@@ -5,6 +5,7 @@ import sashaBg_hover from '../../assets/sasha1sm-hover.png'
 
 
 const Header = () => {
+
     const onHover = () => {
         document.querySelector('.firstChildImg').setAttribute('style', 'opacity:0');
         document.querySelector('.lastChildImg').setAttribute('style', 'opacity:1');
@@ -18,8 +19,8 @@ const Header = () => {
     }, [])
     useEffect(() => {
         document.querySelector('.firstChildImg').addEventListener('mouseout', () => onHoverOut())
-
     }, [])
+
     return (
         <section className='header'>
             <div className='header__name'>
