@@ -138,10 +138,11 @@
 .navbar__menu .navbar__buttons a {
   display: block;
   margin: 1.8vh 0;
-  text-align: left;
+  text-align: right;
   padding: 5px;
   min-width: 210px;
   text-decoration: none;
+  padding-right: 20px;
 }
 
 .navbar__menu .navbar__buttons:after {
