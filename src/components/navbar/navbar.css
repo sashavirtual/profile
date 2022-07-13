@@ -94,7 +94,7 @@
 
 .navbar__menu .navbar__menu-openClose {
   cursor: pointer;
-  z-index: 100;
+  z-index: 105;
 }
 
 .navbar__menu .navbar__menu-openClose img {
@@ -105,7 +105,8 @@
 }
 
 .navbar__menu .navbar__buttons {
-  overflow-x: hidden;
+  overflow: hidden;
+  z-index: 5;
   -webkit-box-shadow: inset 0 0 10px 10px rgba(74, 74, 74, 0.416);
           box-shadow: inset 0 0 10px 10px rgba(74, 74, 74, 0.416);
   -webkit-box-pack: center;
@@ -130,9 +131,11 @@
   width: 35vw;
   min-width: 210px;
   border: 8px ridge var(--orange);
-  background-color: #112b3cc3;
+  background-color: #0000007e;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+  -webkit-box-shadow: 0 0 100px 16vh #112b3cb6;
+          box-shadow: 0 0 100px 16vh #112b3cb6;
 }
 
 .navbar__menu .navbar__buttons a {
@@ -143,11 +146,6 @@
   min-width: 210px;
   text-decoration: none;
   padding-right: 20px;
-}
-
-.navbar__menu .navbar__buttons:after {
-  width: 0;
-  height: 0;
 }
 
 .slide-left {
