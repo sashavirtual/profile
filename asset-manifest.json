@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.a236221c.css",
-    "main.js": "/profile/static/js/main.c90c5ef4.js",
+    "main.css": "/profile/static/css/main.a950ce77.css",
+    "main.js": "/profile/static/js/main.dc632717.js",
     "static/media/sasha1.png": "/profile/static/media/sasha1.e04976bdc79c041672e5.png",
+    "static/media/project1.png": "/profile/static/media/project1.aa4531442fb49d25e900.png",
+    "static/media/coding_sasha.png": "/profile/static/media/coding_sasha.b87af6be01f2e0a1d6c0.png",
+    "static/media/project4.png": "/profile/static/media/project4.8a09db54b76e01424506.png",
+    "static/media/meadow_meadow.png": "/profile/static/media/meadow_meadow.9e642ff6e15e4992249d.png",
+    "static/media/project2.png": "/profile/static/media/project2.6a1995ba2e333972035c.png",
+    "static/media/project3.png": "/profile/static/media/project3.5d5bad0f13c9412f58c7.png",
+    "static/media/meadow_meadow-bw.png": "/profile/static/media/meadow_meadow-bw.82c0151e29c11fef353e.png",
     "static/media/sasha1sm-hover.png": "/profile/static/media/sasha1sm-hover.ed3af8bf89e70bdf2e21.png",
     "static/media/sasha1sm.png": "/profile/static/media/sasha1sm.2cf8b06f029649557359.png",
+    "static/media/meadow_sasha.png": "/profile/static/media/meadow_sasha.d3459026b8bca67e57e7.png",
+    "static/media/meadow_sasha-bw.png": "/profile/static/media/meadow_sasha-bw.3fd32d13a135a057b307.png",
+    "static/media/sasha2.png": "/profile/static/media/sasha2.c23c33b35a859113f58e.png",
     "static/media/expandMenu.png": "/profile/static/media/expandMenu.dc363607242f6a151863.png",
     "static/media/sasha0.png": "/profile/static/media/sasha0.905ef448e95e9fd5dccb.png",
     "static/media/closeline.png": "/profile/static/media/closeline.b0452b5dcd778fccd156.png",
     "index.html": "/profile/index.html",
-    "main.a236221c.css.map": "/profile/static/css/main.a236221c.css.map",
-    "main.c90c5ef4.js.map": "/profile/static/js/main.c90c5ef4.js.map"
+    "main.a950ce77.css.map": "/profile/static/css/main.a950ce77.css.map",
+    "main.dc632717.js.map": "/profile/static/js/main.dc632717.js.map"
   },
   "entrypoints": [
-    "static/css/main.a236221c.css",
-    "static/js/main.c90c5ef4.js"
+    "static/css/main.a950ce77.css",
+    "static/js/main.dc632717.js"
   ]
 }
