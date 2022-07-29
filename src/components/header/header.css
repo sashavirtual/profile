@@ -23,8 +23,13 @@
           box-sizing: border-box;
 }
 
+.header .header__name,
+.header .header__quote {
+  margin-left: 5vw;
+}
+
 .header h1 {
-  font-size: 4vmin;
+  font-size: 6vmin;
   width: 80%;
   font-weight: 800;
   color: var(--white);
@@ -33,7 +38,7 @@
 }
 
 .header h2 {
-  font-size: 3vmin;
+  font-size: 5vmin;
   text-align: left;
   width: 80%;
   font-weight: 600;
@@ -71,12 +76,12 @@
 .header .firstChildImg,
 .header .lastChildImg {
   position: absolute;
-  max-height: 80vh;
-  height: 80vh;
+  max-height: 90vh;
+  height: 90vh;
   margin: 0 auto;
   aspect-ratio: 5/6;
   top: 15%;
-  right: 8%;
+  right: 12%;
   background-size: cover;
   -webkit-transition: 1s;
   transition: 1s;
@@ -114,7 +119,7 @@
 }
 
 .header__quote p {
-  font-size: 4vmin;
+  font-size: 5vmin;
   width: 100%;
   color: var(--orange);
   letter-spacing: 0.3vw;
@@ -136,6 +141,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .header .header__quote {
+    display: none;
   }
   .header h1 {
     font-size: 35px;
@@ -205,6 +213,7 @@
   }
   .header .header__quote p {
     max-width: 300px;
+    margin-left: -15px;
   }
 }
 /*# sourceMappingURL=header.css.map */

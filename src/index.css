@@ -18,7 +18,9 @@ body {
   --orange: #F66B0E;
   --lblue: #205375;
   --dblue: #112B3C;
-  --white: #EFEFEF;
+  --white: #dddddd;
+  --paragraph: 20px;
+  --paragraphAdaptive: 3.5vw;
   --width: 90%;
   --handwriting: 'Amatic SC', cursive;
   /* palette https://colorhunt.co/palette/112b3c205375f66b0eefefef */
